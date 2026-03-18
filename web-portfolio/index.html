@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Hassan Abdelhalim | Data Engineer Portfolio</title>
+    <meta name="description"
+        content="Senior Data Engineering Portfolio of Ahmed Hassan Abdelhalim featuring Real-Time Pipelines, ETL Workflows, Kafka, Spark, and Airflow.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">&lt;A.H/&gt; <span class="accent-text">Data</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Tech Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="btn-primary">Contact Me</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Engineering <span class="gradient-text">Data</span> at Scale.</h1>
+            <p class="hero-subtitle">I'm <strong>Ahmed Hassan Abdelhalim</strong>. I transform raw, messy data into
+                high-performance, real-time analytics engines using modern distributed systems.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="https://github.com/ahmedhassn7896" target="_blank" class="btn-secondary"><i
+                        class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="datanode node-1">Kafka</div>
+            <div class="datanode node-2">Spark</div>
+            <div class="datanode node-3">Airflow</div>
+            <div class="datanode node-4">PostgreSQL</div>
+            <div class="connecting-line line-1"></div>
+            <div class="connecting-line line-2"></div>
+            <div class="connecting-line line-3"></div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section fade-in">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a highly motivated Computer Science student and Data Engineer based in Beni Suef, Egypt. My
+                        passion lies in designing high-throughput data pipelines and reliable ETL workflows.</p>
+                    <p>By leveraging industry standards like <strong>Apache Kafka</strong>, <strong>Apache
+                            Spark</strong>, and <strong>Docker</strong>, I focus on optimizing architecture to ensure
+                        secure, rapid, and scalable data delivery for business intelligence.</p>
+                    <div class="contact-badges">
+                        <span><i class="fas fa-envelope"></i> halmyh185@gmail.com</span>
+                        <span><i class="fas fa-phone"></i> 01228620968</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Beni Suef, Egypt</span>
+                    </div>
+                </div>
+                <div class="about-stats glass-card">
+                    <div class="stat">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Nahda University</h3>
+                        <p>B.Sc. Computer Science (2023–2027)</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-certificate"></i>
+                        <h3>IBM Data Eng Pro</h3>
+                        <p>Coursera Certification</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="gradient-text">Arsenal</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3>Data Engineering</h3>
+                    <p>Apache Spark, Apache Kafka, Apache Airflow, ETL/ELT pipelines</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>Languages</h3>
+                    <p>Python, SQL, C++, Java</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-server skill-icon"></i>
+                    <h3>Databases</h3>
+                    <p>PostgreSQL, MySQL, MongoDB</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fab fa-docker skill-icon"></i>
+                    <h3>Infrastructure</h3>
+                    <p>Docker, Git, Linux / Bash</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-network-wired skill-icon"></i>
+                    <h3>APIs & Web</h3>
+                    <p>FastAPI, REST APIs Integration</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <i class="fas fa-chart-bar skill-icon"></i>
+                    <h3>Processing</h3>
+                    <p>Pandas, NumPy, Validation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+
+            <div class="project-showcase">
+                <div class="project-info glass-card">
+                    <div class="project-tag">Streaming & Big Data</div>
+                    <h3 class="project-title">Real-Time E-Commerce Pipeline</h3>
+                    <p class="project-description">End-to-end distributed data pipeline simulating high-throughput
+                        e-commerce transactions. Analyzes purchasing behavior instantly.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> <strong>Ingestion:</strong> Apache Kafka decoupling producers.
+                        </li>
+                        <li><i class="fas fa-check"></i> <strong>Processing:</strong> Spark Structured Streaming
+                            analytics.</li>
+                        <li><i class="fas fa-check"></i> <strong>Storage:</strong> PostgreSQL target sink.</li>
+                        <li><i class="fas fa-check"></i> <strong>Ops:</strong> Containerized deeply with Docker-Compose.
+                        </li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Kafka</span><span>Spark</span><span>PostgreSQL</span><span>Docker</span>
+                    </div>
+                    <a href="https://github.com/ahmedhassn7896/ahmed/tree/main/ecommerce-streaming-pipeline"
+                        target="_blank"
+                        style="margin-top: 1.5rem; display: inline-block; color: var(--accent); font-weight: 600;"><i
+                            class="fab fa-github"></i> View Source Code</a>
+                </div>
+
+                <div class="project-info glass-card">
+                    <div class="project-tag">Batch ETL & Orchestration</div>
+                    <h3 class="project-title">API Data Ingestion Workflow</h3>
+                    <p class="project-description">Robust scheduled Python ETL built to extract data from external REST
+                        APIs safely, clean it with Pandas, and load it securely.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check"></i> <strong>Extraction:</strong> API pagination & backoff
+                            strategies.</li>
+                        <li><i class="fas fa-check"></i> <strong>Transformation:</strong> Pandas nested JSON flattening.
+                        </li>
+                        <li><i class="fas fa-check"></i> <strong>Orchestration:</strong> Apache Airflow daily DAGs.</li>
+                        <li><i class="fas fa-check"></i> <strong>Design:</strong> Postgres bulk UPSERT idempotency.</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Airflow</span><span>Python</span><span>Pandas</span><span>PostgreSQL</span>
+                    </div>
+                    <a href="https://github.com/ahmedhassn7896/ahmed/tree/main/api-etl-pipeline" target="_blank"
+                        style="margin-top: 1.5rem; display: inline-block; color: var(--accent); font-weight: 600;"><i
+                            class="fab fa-github"></i> View Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <h2 class="section-title">Ready to build?</h2>
+        <p>I am actively seeking Data Engineering and backend development opportunities.</p>
+        <div class="footer-links">
+            <a href="mailto:halmyh185@gmail.com" class="footer-btn"><i class="fas fa-envelope"></i>
+                halmyh185@gmail.com</a>
+            <a href="https://linkedin.com/in/AhmedH-Abdel" target="_blank" class="footer-btn"><i
+                    class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/ahmedhassn7896" target="_blank" class="footer-btn"><i class="fab fa-github"></i>
+                GitHub</a>
+        </div>
+        <p class="copyright">&copy; 2026 Ahmed Hassan Abdelhalim. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

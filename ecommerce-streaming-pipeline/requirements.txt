@@ -1,0 +1,5 @@
+faker==19.3.0
+kafka-python==2.0.2
+pyspark==3.4.1
+psycopg2-binary==2.9.7
+apache-airflow==2.7.2
